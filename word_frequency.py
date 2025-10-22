@@ -66,6 +66,4 @@ def main():
     print_frequencies(unique_words, frequencies)
 
 
-# Run the program
-if __name__ == "__main__":
-    main()
+main()
