@@ -18,7 +18,7 @@ def calculate_fibonacci(n):
     fib_sequence = []
 
     if n == 1:
-        fib_sequence.extend(term1)
+        fib_sequence.append(term1)
     elif n == 2:
         fib_sequence.extend([term1, term2])
     else:
@@ -27,7 +27,7 @@ def calculate_fibonacci(n):
             term3 = term1 + term2
             term1 = term2
             term2 = term3
-            fib_sequence.extend(term3)
+            fib_sequence.append(term3)
     return fib_sequence
 
 
